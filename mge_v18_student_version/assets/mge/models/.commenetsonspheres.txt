@@ -1,0 +1,4 @@
+sphere 1 no vn no expolrt normals
+sphere 2 correct
+sphere 3 no vt no unwrap[
+sphere 4 missing triangles forgot to triangulate

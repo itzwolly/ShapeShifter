@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MGE Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MGE Source files\mge">
+      <UniqueIdentifier>{5808a1e3-17c6-41a4-bf66-b872468a8c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\mge\behaviours">
+      <UniqueIdentifier>{62606aaf-8ae3-4195-9a83-22a2c9d20af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\mge\core">
+      <UniqueIdentifier>{4394d90a-ffa0-485d-98ea-1e91842edda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\mge\materials">
+      <UniqueIdentifier>{88a48024-4c44-40c0-a658-f27957d6b003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\mge\util">
+      <UniqueIdentifier>{7d824c34-4bb6-43a4-a48a-0d68b7aad6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\ThirdPersonGame">
+      <UniqueIdentifier>{4829b579-ce27-4b1a-b0ce-e06c968e7d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\ThirdPersonGame\Colliders">
+      <UniqueIdentifier>{7042ab64-fb7c-44e1-a78d-749f261edaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\ThirdPersonGame\GamePlay">
+      <UniqueIdentifier>{a9afbd24-e960-4374-be3a-5ceb55537a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\mge\scripting">
+      <UniqueIdentifier>{c0e2cdb0-1cbb-4d62-9720-7be8ce1c3e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGE Source files\ThirdPersonGame\Menu">
+      <UniqueIdentifier>{f7dc72c8-2841-43f9-a307-b96c7ac780ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\glm.hpp">
+      <Filter>MGE Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\AbstractBehaviour.hpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\AbstractGame.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\AbstractMaterial.hpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\Camera.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\ColorMaterial.hpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\util\DebugHud.hpp">
+      <Filter>MGE Source files\mge\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\GameObject.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\KeysBehaviour.hpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\Mesh.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\Renderer.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\ShaderProgram.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\Texture.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\World.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\RotatingBehaviour.hpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\TextureMaterial.hpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\MGEDemo.hpp">
+      <Filter>MGE Source files\mge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\config.hpp">
+      <Filter>MGE Source files\mge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\Light.hpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMovement.h">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMaterial.h">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainMaterial.h">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\ThirdPersonGame.h">
+      <Filter>MGE Source files\ThirdPersonGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\Collider.h">
+      <Filter>MGE Source files\ThirdPersonGame\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\CubeCollider.h">
+      <Filter>MGE Source files\ThirdPersonGame\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\SphereCollider.h">
+      <Filter>MGE Source files\ThirdPersonGame\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\GateBehaviour.h">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\Gate.h">
+      <Filter>MGE Source files\ThirdPersonGame\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\PhysicsManager.h">
+      <Filter>MGE Source files\ThirdPersonGame\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\GameManager.h">
+      <Filter>MGE Source files\ThirdPersonGame\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\scripting\LuaScript.h">
+      <Filter>MGE Source files\mge\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\PlayerBehaviour.h">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\core\KeyHandler.h">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\ActualMaterial.h">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\TextureWithLightMaterial.h">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\LitMaterial.h">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\ShadowGen.hpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\Prop.h">
+      <Filter>MGE Source files\ThirdPersonGame\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\PropBehaviour.h">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\NumberTextureMaterial.hpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\materials\FlatTextTexture.hpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\PopTextBehaviour.hpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\MainMenu.h">
+      <Filter>MGE Source files\ThirdPersonGame\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\Button.h">
+      <Filter>MGE Source files\ThirdPersonGame\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\LineSegmentFlat.h">
+      <Filter>MGE Source files\mge\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\PhysicsManagerFlat.h">
+      <Filter>MGE Source files\mge\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\MainMenuBefore.h">
+      <Filter>MGE Source files\ThirdPersonGame\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\MainMenuResolution.h">
+      <Filter>MGE Source files\ThirdPersonGame\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\behaviours\SlidingBehaviour.hpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mge\util\StatsManager.h">
+      <Filter>MGE Source files\mge\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>MGE Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\AbstractBehaviour.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\AbstractGame.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\AbstractMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\Camera.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\ColorMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\util\DebugHud.cpp">
+      <Filter>MGE Source files\mge\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\GameObject.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\KeysBehaviour.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\Mesh.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\Renderer.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\ShaderProgram.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\Texture.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\World.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\RotatingBehaviour.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\TextureMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\MGEDemo.cpp">
+      <Filter>MGE Source files\mge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\Light.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\TerrainMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\LitMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\CustomMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\CameraMovement.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\ThirdPersonGame.cpp">
+      <Filter>MGE Source files\ThirdPersonGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\Collider.cpp">
+      <Filter>MGE Source files\ThirdPersonGame\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\CubeCollider.cpp">
+      <Filter>MGE Source files\ThirdPersonGame\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\SphereCollider.cpp">
+      <Filter>MGE Source files\ThirdPersonGame\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\GateBehaviour.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\KeyHandler.cpp">
+      <Filter>MGE Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\Gate.cpp">
+      <Filter>MGE Source files\ThirdPersonGame\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\PhysicsManager.cpp">
+      <Filter>MGE Source files\ThirdPersonGame\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\KeyHandler.cpp">
+      <Filter>MGE Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\GameManager.cpp">
+      <Filter>MGE Source files\ThirdPersonGame\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\scripting\LuaScript.cpp">
+      <Filter>MGE Source files\mge\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\PlayerBehaviour.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\KeyHandler.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\ActualMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\TextureWithLightMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\PropBehaviour.cpp">
+      <Filter>MGE Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\ShadowGen.cpp">
+      <Filter>MGE Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\Prop.cpp">
+      <Filter>MGE Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\NumberTextureMaterial.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\materials\FlatTextTexture.cpp">
+      <Filter>MGE Source files\mge\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\PopTextBehaviour.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\MainMenu.cpp">
+      <Filter>MGE Source files\ThirdPersonGame\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\Button.cpp">
+      <Filter>MGE Source files\ThirdPersonGame\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\LineSegmentFlat.cpp">
+      <Filter>MGE Source files\mge\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\PhysicsManagerFlat.cpp">
+      <Filter>MGE Source files\mge\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\core\KeyHandler.cpp">
+      <Filter>MGE Source files\mge\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\MainMenuBefore.cpp">
+      <Filter>MGE Source files\ThirdPersonGame\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\MainMenuResolution.cpp">
+      <Filter>MGE Source files\ThirdPersonGame\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\behaviours\SlidingBehaviour.cpp">
+      <Filter>MGE Source files\mge\behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mge\util\StatsManager.cpp">
+      <Filter>MGE Source files\mge\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
